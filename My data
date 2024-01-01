@@ -1,0 +1,31 @@
+URL = http://127.0.0.1/orangehrm-2.5.0.2/login.php
+
+## Login Details
+
+XUSER = //input[@name='txtUserName']
+XPWD = //input[@name='txtPassword']
+XSUB = //input[@type='Submit']
+
+
+## Add an Employee
+
+for that take XPATH
+
+XPIM = //li[@id='pim']
+XADD = //*[@id="pim"]/ul/li[2]/a/span
+XFRAME = //*[@id=\"rightMenu\"]
+XID = //input[@name='txtEmployeeId']
+XLAST = //*[@id=\"txtEmpLastName\"]
+XFIRST = //input[@name='txtEmpFirstName']
+XMID = //input[@name='txtEmpMiddleName']
+XNICK = //input[@name='txtEmpNickName']
+XPHOTO = //input[@name='photofile']
+XSAVE = //input[@id='btnEdit']
+XBACK = //input[@class='backbutton']
+XEMP1 = //*[@id="standardView"]/table/tbody/tr[1]/td[3]/a
+XEDIT = //*[@id=\"btnEditPers\"]
+XSAVE1 = //*[@id="btnEditPers"]
+XEMP = //*[@id="standardView"]/table/tbody/tr["+i+"]/td[3]/a
+XEMPLIST = //*[@id="pim"]/ul/li[1]/a/span
+XDEL = //*[@id="standardView"]/div[3]/div[1]/input[2]
+XCHECK = //*[@id="allCheck"]
